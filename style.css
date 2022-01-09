@@ -1,0 +1,80 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin:0;
+    font-family:'Hind Siliguri', sans-serif;
+}
+
+.menu{
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom:3px solid rgb(184, 0, 0);
+    align-items: center;
+}
+
+.menuhamburguer{
+    width: 50px;
+    background-color: red;
+}
+
+.logo{
+    width: 250px;
+    text-align: center;
+    margin-left: -5px;
+    
+
+}
+
+.logo h1{
+    color: rgb(175, 4, 4);
+    letter-spacing: -3px;
+    transform: scale(2,1);
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+    
+}
+
+
+.logo2{
+    text-align: left;
+    flex: 8%;    
+    margin-top: 5px;
+}
+.logo2 h3{
+    margin-left: 8px;
+
+}
+
+.menu1{
+    text-align: right;
+}
+
+.menu a{
+    color: rgb(68, 67, 67);
+    text-decoration: none;
+    font-size: 15px;
+    padding: 8px;
+
+}
+
+.menu1 a:hover{
+    color:rgb(19, 19, 19);
+    border-top: 2px solid rgb(201, 6, 6);
+
+}
+
+#botao1{
+    background: rgb(201, 6, 6);
+    padding: 10px 20px;
+    color: white;
+    border-radius: 35px;
+    font-size: 14px;
+}
+
+#botao1:hover{
+    border: none;
+    background-color: rgb(145, 4, 4);
+    color: white;
+}
+
