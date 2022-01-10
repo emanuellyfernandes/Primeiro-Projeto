@@ -2,47 +2,79 @@
     box-sizing: border-box;
     padding: 0;
     margin:0;
-    font-family:'Hind Siliguri', sans-serif;
 }
 
 .menu{
-    height: 100px;
-    display: flex;
-    justify-content: space-between;
+    background-color: white;
     border-bottom:3px solid rgb(184, 0, 0);
+    height: 80px;
     align-items: center;
+    display: flex;
+    font-family:'Hind Siliguri', sans-serif;
+}
+
+/*#hamburguer{
+    display: none;
+}*/
+
+.menuhamburguer{
+    background-color: rgb(194, 194, 196);
+    text-align: center;
+    padding: 5px;
+    margin-left: 10px;
+    cursor: pointer;
+    
+}
+
+label[for="hamburguer"]{
+    font-size: 25px;
+}
+
+.menu2{
+    display: flex;
+    background-color: rgb(194, 194, 196);
+    flex-direction: column;
+    padding: 8px;
+    width:300px;
+    margin-left: 10px;
+
+   
+}
+
+.menu2 a{
+    color: rgb(68, 67, 67);
+    font-size: 20px;
+    padding: 20px;
+    text-decoration: none;
+    border-bottom: 1px solid rgb(184, 0, 0);
+
+}
+
+.menu2 a:hover{
+    background-color: rgb(227, 227, 235) ;
 }
 
 .logo{
-    width: 250px;
-    text-align: center;
-    margin-left: -5px;
-    
-
-}
-
-.logo h1{
-    color: rgb(175, 4, 4);
-    letter-spacing: -3px;
-    transform: scale(2,1);
+    color: rgb(184, 0, 0);
     font-family:Georgia, 'Times New Roman', Times, serif;
-    font-size: 30px;
-    
-}
+    font-size: 18px;
+    margin-left: 100px;
+    text-align: center;
+    transform: scale(2,1);
+    letter-spacing: -3px;
+
+ }
 
 
 .logo2{
-    text-align: left;
-    flex: 8%;    
-    margin-top: 5px;
-}
-.logo2 h3{
-    margin-left: 8px;
-
+    margin-left: 110px;
+    margin-top: 10px;
 }
 
 .menu1{
-    text-align: right;
+    text-align:right;
+    flex: auto;
+    margin-right: 8px;
 }
 
 .menu a{
@@ -73,3 +105,7 @@
     color: white;
 }
 
+#hamburguer:checked ~ .menu2{
+    margin-top: 0;
+
+}
