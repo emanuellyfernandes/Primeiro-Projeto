@@ -13,47 +13,6 @@
     font-family:'Hind Siliguri', sans-serif;
 }
 
-/*#hamburguer{
-    display: none;
-}*/
-
-.menuhamburguer{
-    background-color: rgb(194, 194, 196);
-    text-align: center;
-    padding: 5px;
-    margin-left: 10px;
-    cursor: pointer;
-    
-}
-
-label[for="hamburguer"]{
-    font-size: 25px;
-}
-
-.menu2{
-    display: flex;
-    background-color: rgb(194, 194, 196);
-    flex-direction: column;
-    padding: 8px;
-    width:300px;
-    margin-left: 10px;
-
-   
-}
-
-.menu2 a{
-    color: rgb(68, 67, 67);
-    font-size: 20px;
-    padding: 20px;
-    text-decoration: none;
-    border-bottom: 1px solid rgb(184, 0, 0);
-
-}
-
-.menu2 a:hover{
-    background-color: rgb(227, 227, 235) ;
-}
-
 .logo{
     color: rgb(184, 0, 0);
     font-family:Georgia, 'Times New Roman', Times, serif;
@@ -105,7 +64,59 @@ label[for="hamburguer"]{
     color: white;
 }
 
-#hamburguer:checked ~ .menu2{
-    margin-top: 0;
+#check{
+    display: none;
+}
 
+
+
+
+.menuhamburguer{
+    background-color: rgb(231, 231, 233);
+    margin-top: px;
+    margin-left: 20px;
+    float: left;
+    cursor: pointer;
+    padding: 8px 5px;
+    
+}
+
+
+
+label[for="check"]{
+    font-size: 20px;
+    position: relative;
+    padding: 20px 10px;
+    height: 10px;
+
+    
+    
+}
+
+.menu2{
+    position: absolute;
+    margin-top: 70px;
+    top:-400px;
+    display: block;
+ }
+
+.menu2 li{
+    list-style-type: none;
+    color: rgb(68, 67, 67);
+    background-color: rgb(231, 231, 233);
+    font-size: 17px;
+    padding: 20px;
+    text-decoration: none;
+    border-bottom: 1px solid rgb(184, 0, 0);
+    margin-left: -10px;
+}
+
+.menu2 li:hover{
+    background-color: rgb(195, 195, 201) ;
+}
+
+
+
+#check:checked ~ .menu2{
+    margin-top: 500px;
 }
