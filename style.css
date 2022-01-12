@@ -47,6 +47,8 @@
 .menu1 a:hover{
     color:rgb(19, 19, 19);
     border-top: 2px solid rgb(201, 6, 6);
+    transition: all .5s;
+
 
 }
 
@@ -62,6 +64,8 @@
     border: none;
     background-color: rgb(145, 4, 4);
     color: white;
+    transition: all .5s;
+
 }
 
 #check{
@@ -72,12 +76,19 @@
 
 
 .menuhamburguer{
-    background-color: rgb(231, 231, 233);
+    background-color: rgb(194, 194, 196);
     margin-top: px;
     margin-left: 20px;
     float: left;
     cursor: pointer;
     padding: 8px 5px;
+    border-radius: 45px;
+    
+}
+
+.menuhamburguer:hover{
+    background-color: rgb(201, 6, 6);
+    color: white;
     
 }
 
@@ -88,6 +99,7 @@ label[for="check"]{
     position: relative;
     padding: 20px 10px;
     height: 10px;
+    
 
     
     
@@ -95,28 +107,115 @@ label[for="check"]{
 
 .menu2{
     position: absolute;
-    margin-top: 70px;
-    top:-400px;
+    margin-top: 40px;
     display: block;
+    opacity:0;
+    transition: all .5s;
+    visibility: hidden;
+
+
+    
  }
 
 .menu2 li{
     list-style-type: none;
-    color: rgb(68, 67, 67);
-    background-color: rgb(231, 231, 233);
-    font-size: 17px;
-    padding: 20px;
+    background-color: rgb(255, 255, 255);
+    padding: 30px;
     text-decoration: none;
     border-bottom: 1px solid rgb(184, 0, 0);
-    margin-left: -10px;
+    margin-left: -5px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
+
+.menu2 li a{
+    margin-left: -15px;
+    font-size: 18px;
+    color:black;
+
+
+}
+
 
 .menu2 li:hover{
-    background-color: rgb(195, 195, 201) ;
+    background-color: rgb(184, 0, 0);
+    transition: all 0.4s;
+
 }
 
+.menu li a:hover{
+    color: white;
+}
 
 
 #check:checked ~ .menu2{
-    margin-top: 500px;
+    transition: all 0.6s;
+    opacity: 1;
+    visibility: visible;
+}
+
+.header{
+    background-color: rgb(255, 255, 255);
+    height:auto;
+    display: flex;
+    flex-flow: row;
+}
+
+
+.img-headline{
+    width: 100%;
+    height: -350%
+       
+
+}
+
+.img-headlinecarros{
+    display: flex;
+    margin-top: -50px;
+    justify-content: space-between;  
+     
+
+}
+
+ .img-headlinecarros img{
+     width: 85%;
+     padding: 8px;
+     
+     
+    
+}
+
+ .img-headlinecarros img:hover{
+    width: 80%;
+    transition: all 0.3s;
+    opacity: 0.8;
+
+
+ }
+
+ #wrv1{
+     width: 95%;
+     
+ }
+
+ #wrv1:hover{
+     width: 92%;
+}
+
+
+.legendas{
+    display: flex;
+    justify-content:space-between;
+    align-items: top;
+    margin-left: 3%;
+    margin-right: 3%;
+
+
+}
+
+.legendas h3{
+    width: 90%;
+    text-align: center;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: oblique;
+
 }
