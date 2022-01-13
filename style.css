@@ -7,10 +7,13 @@
 .menu{
     background-color: white;
     border-bottom:3px solid rgb(184, 0, 0);
-    height: 80px;
+    height: 70px;
     align-items: center;
     display: flex;
     font-family:'Hind Siliguri', sans-serif;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
 }
 
 .logo{
@@ -21,19 +24,22 @@
     text-align: center;
     transform: scale(2,1);
     letter-spacing: -3px;
+    background-color: white;
 
  }
 
 
 .logo2{
     margin-left: 110px;
-    margin-top: 10px;
+    margin-top: 5px;
+    background-color: white;
 }
 
 .menu1{
     text-align:right;
     flex: auto;
     margin-right: 8px;
+    background-color: white;
 }
 
 .menu a{
@@ -82,7 +88,7 @@
     float: left;
     cursor: pointer;
     padding: 8px 5px;
-    border-radius: 45px;
+    
     
 }
 
@@ -99,9 +105,8 @@ label[for="check"]{
     position: relative;
     padding: 20px 10px;
     height: 10px;
-    
-
-    
+    cursor: pointer;
+       
     
 }
 
@@ -125,6 +130,7 @@ label[for="check"]{
     border-bottom: 1px solid rgb(184, 0, 0);
     margin-left: -5px;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
+    opacity: 0.8;
 }
 
 .menu2 li a{
@@ -213,9 +219,149 @@ label[for="check"]{
 }
 
 .legendas h3{
-    width: 90%;
+    width: 100%;
     text-align: center;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-style: oblique;
 
+}
+
+section{
+    
+    height: 800px;
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+
+}
+
+section h3{
+    font-size: 30px;
+    margin:0;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color:rgb(184, 0, 0);
+    text-align: center;
+    font-weight:800;
+    padding: 4%;
+    margin-top: 5px;
+    transform:scale(1,1);
+    
+
+    
+}
+
+.servicos{
+    display: inline-block;    
+    margin: 0%;
+    width: 100%;
+    height: 75%;
+    margin-top:-25px;
+
+    background-image: url("imagens/banner5.jpg");
+    background-position: top;
+    background-size: cover;
+}
+
+.card{
+    display: inline-block;
+    
+   
+    
+    width: 100%;
+    height: 100%;
+}
+
+.card2{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(46, 46, 46);
+    height: 400px;
+    margin-top: -4px;
+    text-align: center;
+    
+}
+
+.card2 .card21{
+    background-color:rgb(46, 46, 46);
+    
+    text-align: center;
+    margin-top: 50px;
+
+
+    
+}
+
+.card21 img{
+    margin-top: 20px;
+}
+
+.card21 h3{
+    color: white;
+    font-size: 18px;
+    font-family:'Hind Siliguri', sans-serif;
+    text-align: center;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+.card21 p{
+    color: white;
+    font-size: 15px;
+    font-family:'Hind Siliguri', sans-serif;
+    text-align: center;
+    padding: 10px 110px;
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
+
+.card21 a{
+    color: white;
+    background-color:rgb(184, 0, 0) ;
+    font-family:'Hind Siliguri', sans-serif;
+    text-align: right;
+    padding: 15px 60px;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+.card21 a:hover{
+    background-color: rgb(83, 6, 6);
+    
+}
+
+footer{
+    display:flex;
+    justify-content: center;
+    flex-flow: row wrap;
+    flex-direction: column;
+    height: 250px;
+    width: 1339.5px;
+    margin-top: 350px;
+    text-align: center;
+    background-image:linear-gradient(white,rgb(209, 159, 159))
+
+}
+
+footer h1{
+    
+    color: rgb(184, 0, 0);
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    text-align:right;
+    margin-top: 20px;
+    width: 735px;
+    
+}
+
+footer p,b{
+    text-align: center;
+    margin-top: 20px;
+    font-family:'Hind Siliguri', sans-serif;
+    font-size: 15px;
+}
+
+.whats{
+    
+    position: fixed;
+    bottom: 8px;
+    right: 8px;
 }
