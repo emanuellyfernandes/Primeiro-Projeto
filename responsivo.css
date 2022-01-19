@@ -1,0 +1,227 @@
+@media screen and (max-width:1040px){
+   
+    .menu1{
+        display: none;
+        transition: 0.3s;
+    }
+
+    .logo{
+        margin-left: 30%;
+        transition: 0.3s;
+    }
+
+    .logo2{
+        margin-left: 10%;
+        transition: 0.3s;
+
+    }
+
+    .banner1 img{
+        margin-top: 70px;
+        transition: 0.8s;
+
+        
+    }
+
+    
+}
+
+@media screen and (max-width:1000px){
+
+    .logo{
+        margin-left: 20%;
+    }
+
+    .logo2{
+        margin-left: 15%;
+        transition: 0.3s;
+
+
+    }
+
+    .legendascarros{
+        display: flex;
+        background-color: rgb(46, 46, 46);
+        margin:0;
+        color: white;
+    }
+
+    .legendascarros h3{
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding: 10px;
+        
+       
+       
+    }
+
+    .legendascarros h3:hover{
+       font-size: 22px;
+       transition: 0.4s;
+    }
+
+    #lfit,#lcityh,#lcitys,#lhrv,#lcrv,#lwrv,#lcivic,#lcrv{
+        margin: 0;
+        
+    }
+
+    #lcrv{
+        margin-left: 30px;
+        margin-right: 5px;
+    }
+    #lfit{
+        margin-right: -100px;
+    }
+
+    #laccord{
+        margin-right: -30px;
+    }
+
+    .imgcarros{
+        display: none;
+    }
+
+    
+}
+
+@media screen and (max-width:960px){
+
+        
+
+    .serv1 img,.serv2 img, .serv3 img{
+        width: 70px;
+        transition: 0.8s;
+
+    }
+    
+    .serviços h3{
+        font-size: 17px;
+        transition: 0.8s;
+
+        
+    }
+
+    .serviços p{
+        padding: 10px;
+        margin-bottom: 25%;
+        transition: 0.8s;
+
+
+    }
+
+    .serviços a{
+        padding: 15px 30px;
+        transition: 0.8s;
+        font-size: 14px;
+
+    }
+
+    .serv3 h3{
+        margin-top: 25px;
+
+    }
+
+    .serv3 p{
+        margin-top: 20px;
+        margin-bottom: 20%;
+    }
+
+    
+  
+}
+
+@media screen and (max-width:700px){
+
+    .legendascarros{
+        display: block;
+        transition: 3.0s;
+
+
+    }
+
+    .legendascarros h3{
+        border-top: white 2px solid;
+        
+    }
+
+    #lcrv{
+        margin: 0;
+    }
+
+    #laccord{
+        margin: 0;
+    }
+
+    .logo2{
+        display: none;
+
+
+    }
+
+}
+
+@media screen and (max-width:500px){
+
+    .serviços{
+        display: block;
+        width: 100%;
+        transition: 0.4s;
+    }
+    
+    .serv1{
+        width: 100%;
+        border-top: white 2px solid;
+        background-color: rgb(83, 83, 83);
+        height: 300px;
+
+
+    }
+
+    .serv2{
+        width: 100%;
+        border-top: white 2px solid;
+        background-color: rgb(83, 83, 83);
+        height: 300px;
+
+
+
+    }
+
+    .serv3{
+        width: 100%;
+        border-top: white 2px solid;
+        background-color: rgb(83, 83, 83);
+        height: 290px;
+
+    }
+
+    .serviços p{
+        margin-bottom: 7%;
+        margin-top: 0px;
+    }
+
+    .serviços h3{
+        margin-top: 2%;
+    }
+
+    .logo2{
+        display: none;
+        transition: 0.2s;
+    }
+
+    .menu2 li{
+        opacity: 1;
+    }
+
+    label[for="check"]{
+        margin-left: -15px;
+    }
+
+    .logo{
+        margin-left: 18%;
+    }
+
+   
+
+
+}

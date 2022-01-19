@@ -2,6 +2,8 @@
     box-sizing: border-box;
     padding: 0;
     margin:0;
+    
+
 }
 
 .menu{
@@ -24,7 +26,6 @@
     text-align: center;
     transform: scale(2,1);
     letter-spacing: -3px;
-    background-color: white;
     margin-top: -5px;
 
  }
@@ -157,36 +158,33 @@ label[for="check"]{
 
 .header{
     background-color: rgb(255, 255, 255);
-    height:auto;
-    display: flex;
-    flex-flow: row;
-}
-
-
-.img-headline{
+    
     width: 100%;
-    height: -350%
-       
 
 }
 
-.img-headlinecarros{
+
+.banner1 img{
+    width: 100%;
+    margin-top: 30px;
+}
+
+.imgcarros{
     display: flex;
-    margin-top: -50px;
     justify-content: space-between;  
+    margin-top: -50px;
      
 
 }
 
- .img-headlinecarros img{
+.imgcarros img{
      width: 85%;
      padding: 8px;
-     
-     
+       
     
 }
 
- .img-headlinecarros img:hover{
+ .imgcarros img:hover{
     width: 80%;
     transition: all 0.3s;
     opacity: 0.8;
@@ -203,6 +201,36 @@ label[for="check"]{
      width: 92%;
 }
 
+#cityh{
+    margin-top:-10% ;
+}
+
+#citys{
+    margin-top:-6% ;
+}
+
+#civic{
+    margin-top:-2% ;
+}
+
+
+.legendascarros{
+    display: flex;
+    justify-content:space-between;
+    align-items: top;
+    margin-left: 3%;
+    margin-right: 3%;
+
+
+}
+
+.legendascarros h3{
+    width: 100%;
+    text-align: center;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: oblique;
+
+}
 
 .legendas{
     display: flex;
@@ -222,13 +250,55 @@ label[for="check"]{
 
 }
 
+#lfit{
+
+    margin-left: 70%;
+
+}
+
+#lcrv{
+
+    margin-left: 160%;
+
+
+}
+
+#lcivic{
+
+    margin-left:-60%;
+
+}
+
+#laccord{
+
+    margin-left: 90%;
+
+}
+
+#lcityh{
+
+    margin-left: 35%;
+
+
+}
+
+#lcitys{
+
+    margin-left: -5%;
+
+}
+
+#lwrv{
+
+    margin-left: -1%;
+
+
+}
+
 section{
     
-    height: 800px;
-    display: inline-block;
-    width: 100%;
-    text-align: center;
-
+  width: 100%;
+  
 }
 
 section h3{
@@ -241,76 +311,88 @@ section h3{
     padding: 4%;
     margin-top: 5px;
     transform:scale(1,1);
-    
-
-    
-}
-
-.servicos{
-    display: inline-block;    
-    margin: 0%;
     width: 100%;
-    height: 75%;
-    margin-top:-25px;
 
-    background-image: url("imagens/banner5.jpg");
-    background-position: top;
-    background-size: cover;
+    
+
+    
 }
 
-.card{
-    display: inline-block;
+.banner2 img{
+     width: 100%;
     
-   
-    
-    width: 100%;
-    height: 100%;
+
 }
 
-.card2{
+.serviços{
     display: flex;
-    justify-content: space-around;
+    flex-flow: row wrap;
+    width: 100%;
+
+
+
+
+}
+    
+
+.serv1{
+
     background-color: rgb(46, 46, 46);
     height: 400px;
     margin-top: -4px;
     text-align: center;
+    width: 33.3%;
     
 }
 
-.card2 .card21{
-    background-color:rgb(46, 46, 46);
-    
+.serv2{
+
+    background-color: rgb(46, 46, 46);
+    height: 400px;
+    margin-top: -4px;
     text-align: center;
-    margin-top: 50px;
+    width: 33.3%;
+    
+}
+.serv3{
 
-
+    background-color: rgb(46, 46, 46);
+    height: 400px;
+    margin-top: -4px;
+    text-align: center;
+    width: 33.3%;
     
 }
 
-.card21 img{
+
+.serv1 img, .serv2 img ,.serv3 img{
     margin-top: 20px;
+
 }
 
-.card21 h3{
+.serv1 h3, .serv2 h3,.serv3 h3{
     color: white;
     font-size: 18px;
     font-family:'Hind Siliguri', sans-serif;
     text-align: center;
     padding: 10px;
     margin-top: 10px;
+
 }
 
-.card21 p{
+.serv1 p, .serv2 p,.serv3 p{
     color: white;
     font-size: 15px;
     font-family:'Hind Siliguri', sans-serif;
     text-align: center;
-    padding: 10px 110px;
-    margin-top: 10px;
-    margin-bottom: 40px;
+    padding: 10px 90px;
+    margin-top: 5%;
+    width: 100%;
+    margin-bottom: 10%;
+
 }
 
-.card21 a{
+.serv1 a, .serv2 a ,.serv3 a{
     color: white;
     background-color:rgb(184, 0, 0) ;
     font-family:'Hind Siliguri', sans-serif;
@@ -318,46 +400,60 @@ section h3{
     padding: 15px 60px;
     list-style-type: none;
     text-decoration: none;
-}
-
-.card21 a:hover{
-    background-color: rgb(83, 6, 6);
+    width: 100%;
     
 }
 
-footer{
-    display:flex;
-    justify-content: center;
-    flex-flow: row wrap;
-    flex-direction: column;
-    height: 250px;
-    width: 1339.5px;
-    margin-top: 350px;
+.serv1 a:hover, .serv2 a:hover,.serv3 a:hover{
+    background-color: rgb(83, 6, 6);
+    width: 100%;
+
+
+    
+}
+
+.rodape{
+    display:block;
+    margin-top: 5%;
     text-align: center;
+    width: 100%;
+    overflow: hidden;
+    height: 300px;
+ 
     background-image:linear-gradient(white,rgb(209, 159, 159))
 
 }
 
-footer h1{
-    
+.rodape h1{
+ 
+       
     color: rgb(184, 0, 0);
     font-family:Georgia, 'Times New Roman', Times, serif;
-    text-align:right;
     margin-top: 20px;
-    width: 735px;
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 40px;
+    transform: scaleX(1.5);
+    width: 100%;
     
+    
+    
+     
+   
 }
 
-footer p,b{
+.rodape p,b{
     text-align: center;
     margin-top: 20px;
     font-family:'Hind Siliguri', sans-serif;
     font-size: 15px;
+    width: 100%;
+
 }
 
 .whats{
     
     position: fixed;
     bottom: 8px;
-    right: 8px;
+    
 }
